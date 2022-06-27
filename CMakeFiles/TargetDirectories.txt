@@ -1,0 +1,3 @@
+/mnt/c/Projects/ECS/CMakeFiles/rebuild_cache.dir
+/mnt/c/Projects/ECS/CMakeFiles/Ecs.dir
+/mnt/c/Projects/ECS/CMakeFiles/edit_cache.dir
