@@ -3,13 +3,13 @@
 #
 cmake_minimum_required (VERSION 3.8)
 
-project ("Ecs")
+project ("pokemon")
 
 include_directories(.)
 
 cmake_minimum_required (VERSION 3.8)
 
+add_subdirectory("src")
 
-add_executable (Ecs "ECS.cc")
 
 

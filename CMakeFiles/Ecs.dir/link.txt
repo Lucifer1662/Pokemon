@@ -1,1 +1,0 @@
-/usr/bin/c++     CMakeFiles/Ecs.dir/ECS.cc.o  -o Ecs 
