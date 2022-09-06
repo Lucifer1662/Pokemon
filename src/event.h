@@ -4,9 +4,9 @@
 
 template <typename... Args>
 class Event {
-    using Listeners = std::list<std::function<void(Args...)>>;
-    using It = Listerners::It;
-    Listeners listeners;
+    using Listerners = std::list<std::function<void(Args...)>>;
+    using It = typename Listerners::It;
+    Listerners listeners;
     bool currentlyExecuting = true;
 
    public:

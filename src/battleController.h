@@ -1,5 +1,4 @@
 #pragma once
-struct Battle;
 struct PlayerInput;
 
 struct BattleController {

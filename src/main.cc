@@ -18,7 +18,7 @@
 #include "battleSpot.h"
 #include "battle.h"
 #include "playerController.h"
-#include "pokemon/chimchar.h"
+#include "pokemons/chimchar.h"
 #include "playerInput/playerInput.h"
 #include "playerInput/cmdPlayerInput.h"
 #include "battleController.h"

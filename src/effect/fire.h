@@ -1,4 +1,6 @@
 #pragma once
+#include "effect.h"
+#include "../pokemon.h"
 
 class Fire : public Effect {
     int damage;
@@ -6,11 +8,7 @@ class Fire : public Effect {
     int duration = 5;
 
    public:
-    Fire(int damage, Pokemon* target) : damage(damage), target(target) {}
+    Fire(int damage, Pokemon* target);
 
-    bool trigger() {
-        target->Damage(damage, PokemonType::Fire);
-        duration--;
-        return duration == 0;
-    }
+    bool trigger() ;
 };

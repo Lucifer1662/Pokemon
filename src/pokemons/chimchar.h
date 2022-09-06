@@ -1,4 +1,5 @@
 #pragma once
+#include <vector>
 
 Pokemon CreateChimChar() {
     std::vector<std::unique_ptr<Move>> moves;
